@@ -1,17 +1,35 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
+
 
 
 <app-menu-title></app-menu-title>
 
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card
+        photoCover="https://static0.cbrimages.com/wordpress/wp-content/uploads/2021/01/Star-Wars-Skywalker-Saga-Movies.jpg"
+        cardTitle="Starwars Filmes"
+        cardDescription="descrição"
+        >
+        </app-big-card>
     </div>
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+            Id="2"
+            cardTitle="Novo episódio de Andor"
+            photoCover="https://th.bing.com/th/id/OIP.4u40cq4CxkiYDVxA55xpGQHaEK?pid=ImgDet&rs=1"
+        >
+        </app-small-card>
+        <app-small-card
+            Id="3"
+            cardTitle="Novo episódio de Mandalorian"
+            photoCover="https://th.bing.com/th/id/OIP.sN7uFVfXWwU-8NDzbLdjngHaEK?pid=ImgDet&rs=1"
+        >
+        </app-small-card>
+        <app-small-card
+            Id="4"
+            cardTitle="Novo episódio de Boba Fett"
+            photoCover="https://th.bing.com/th/id/R.10a90da0fa108578dccce3675f6493bd?rik=99oTqZny8YLJMQ&pid=ImgRaw&r=0"
+        >
+        </app-small-card>
     </div>
 </div>

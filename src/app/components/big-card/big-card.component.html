@@ -1,15 +1,16 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-        <img src="https://th.bing.com/th/id/R.1766528d1b7af856c334cd7740ec984e?rik=rtXUnc19d8EwLQ&riu=http%3a%2f%2fd.ibtimes.co.uk%2fen%2ffull%2f1516668%2fstar-wars.jpg&ehk=ltYpfTYmKh3SJRryxLsCsducnHHpZCHM8jrr6cMRUhM%3d&risl=&pid=ImgRaw&r=0" 
+        <img src={{photoCover}}
             width="400px"
             alt=""
         >
 
     </div>
     <div class="big-card__title">
-        <h1>Saiu a nova versão do angular</h1>
+        <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card__description">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <p>
+            <a [routerLink]="['content',Id]">{{cardDescription}}</a></p>
     </div>
 </div>
